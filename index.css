@@ -3,6 +3,7 @@ h1{
   font-size: 2em; 
   font-weight: bold;
   font-family: Phantomsans, sans-serif;
+  padding-top: 21px;
 }
 
 #title_box{
@@ -10,6 +11,9 @@ h1{
   width: fit-content;
 }
 
+.danger{
+  color: red;
+}
 
 h2{
   display: block;
@@ -188,4 +192,8 @@ div{
 
 #Magical_Button{
   font-size: 16px;
+}
+
+#whitespace{
+  color: #cfcfcf;
 }

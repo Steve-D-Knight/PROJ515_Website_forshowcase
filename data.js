@@ -1,13 +1,13 @@
 var node = [
-    {name: "node1", Latitude:50.53900552836232,   Longitude:-4.335507477915251,   Temperature: 22.8, Humidity: 14.7},
-    {name: "node2", Latitude:50.53772297111132,   Longitude:-4.335097810556772,   Temperature: 23.7, Humidity: 52.3},
-    {name: "node3", Latitude:50.536276436123984,  Longitude:-4.33471848892855,    Temperature: -5.5, Humidity: 54.1},
-    {name: "node4", Latitude:50.53743366766271,   Longitude:-4.3323515219684445,  Temperature: 22.5, Humidity: 51.2},
-    {name: "node5", Latitude:50.53854265457947,   Longitude:-4.3337474255603015,  Temperature: 21.9, Humidity: 56.8},
-    {name: "node6", Latitude:50.54026876494557,   Longitude:-4.332654979271021,   Temperature: 22.7, Humidity: 58.7},
-    {name: "node7", Latitude:50.539584114202924,  Longitude:-4.3316535701725165,  Temperature: 21.1, Humidity: 97.6},
-    {name: "node8", Latitude:50.54000840597513,   Longitude:-4.330181802255014,   Temperature: 56.3, Humidity: 52.4},
-    {name: "node9", Latitude:50.53869694634514,   Longitude:-4.329514196189344,   Temperature: 25.4, Humidity: 54.3},
+    {name: "node1", Latitude:50.53900552836232,   Longitude:-4.335507477915251,   Temperature: 22.8, Humidity: 14.7, Pressure: 1010},
+    {name: "node2", Latitude:50.53772297111132,   Longitude:-4.335097810556772,   Temperature: 23.7, Humidity: 52.3, Pressure: 1011},
+    {name: "node3", Latitude:50.536276436123984,  Longitude:-4.33471848892855,    Temperature: -5.5, Humidity: 54.1, Pressure: 1008},
+    {name: "node4", Latitude:50.53743366766271,   Longitude:-4.3323515219684445,  Temperature: 22.5, Humidity: 51.2, Pressure: 1002},
+    {name: "node5", Latitude:50.53854265457947,   Longitude:-4.3337474255603015,  Temperature: 21.9, Humidity: 56.8, Pressure: 1015},
+    {name: "node6", Latitude:50.54026876494557,   Longitude:-4.332654979271021,   Temperature: 22.7, Humidity: 58.7, Pressure: 1020},
+    {name: "node7", Latitude:50.539584114202924,  Longitude:-4.3316535701725165,  Temperature: 21.1, Humidity: 97.6, Pressure: 1014},
+    {name: "node8", Latitude:50.54000840597513,   Longitude:-4.330181802255014,   Temperature: 56.3, Humidity: 52.4, Pressure: 1030},
+    {name: "node9", Latitude:50.53869694634514,   Longitude:-4.329514196189344,   Temperature: 25.4, Humidity: 54.3, Pressure: 1012},
 ];
 
 var Graph_test_data = [
