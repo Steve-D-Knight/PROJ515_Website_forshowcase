@@ -18,5 +18,5 @@ var dashboard_block_humi = '<div id="dashboard_innerbox"><h3>Humidity</h3>&osol;
 var dashboard_block_pres = '<div id="dashboard_innerbox"><h3>Pressure</h3>&osol; ' + parseFloat(average_pres).toFixed(2)+ ' hPa<br /><br />' + Health_bar_function(80, 100) + '</div>';
 var dashboard_block_environment = '<div id="dashboard_outerbox"><h2>Environmental sensors</h2><div id="dashboard_innerbox_container">' + dashboard_block_temp + dashboard_block_humi + dashboard_block_pres + '</div></div>'
 
-DASHBOARD = '<div id="dashboard_panel">' + dashboard_block_environment + '</div>';
+DASHBOARD = '<div id="dashboard_panel">' + dashboard_block_environment + '</div><div id="whitespace"><br />This is a demo of the dashboard using dummy data</div>';
 document.getElementById('DASHBOARD').innerHTML = DASHBOARD;
