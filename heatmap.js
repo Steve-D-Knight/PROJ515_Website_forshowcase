@@ -1,8 +1,8 @@
+
 for(i = 0; i <= node.length-3; i++){
     var marker = new L.marker([node[i].Latitude, node[i].Longitude], {icon: BluePin}).addTo(map);
     marker.valueOf()._icon.style.filter = Hue_calculate(node.length,i);
-    marker.bindPopup(node[i].name + "<br />temperature " + node[i].Temperature + "&deg; C<br />Humidity " + node[i].Humidity + "%");
-    
+    marker.bindTooltip(node[i].name + "<br />temperature " + node[i].Temperature + "&deg; C<br />Humidity " + node[i].Humidity + "%");
 };
 
 function Hue_calculate(total_values, This_value){
